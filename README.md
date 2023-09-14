@@ -53,7 +53,7 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 * What is the "view" rating for the same parameters using parquet data and how is its runtime different from cached data? (See **Figure 6**.)
 
-![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/02d2013b-bde3-4546-9ba0-330398e6f85f)
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/376a2aa7-b0cf-4102-8eb6-0723736c9e7e)
 
 **Figure 6** | *With parquet data, and comparison*
 
