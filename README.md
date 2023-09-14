@@ -23,13 +23,39 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 * What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places. (See **Figure 1**.)
 
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/778521bd-e4f9-43fe-ad69-ff217f1c7109)
+
+**Figure 1** |
+
 * What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places. (See **Figure 2**.)
+
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/6c02826f-be2d-418d-8724-900e7619dac7)
+
+**Figure 2** |
 
 * What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places. (See **Figure 3**.)
 
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/9bc66f9d-0564-4774-9be4-0fee7c43e2e3)
+
+**Figure 3** |
+
 * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places. (See **Figure 4**.)
 
-  What is the "view" rating for the same parameters using cached data and what is the different runtime from the original? (See **Figure 5**.)
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/b4c3a23e-7714-4449-8a10-b8c0b34867a9)
+
+**Figure 4** |
+
+* What is the "view" rating for the same parameters using cached data? (See **Figure 5**.)
+
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/25f77743-3806-42e4-8522-4479a20367ab)
+
+**Figure 5** | *With cached data*
+
+* What is the "view" rating for the same parameters using parquet data and how is its runtime different from cached data? (See **Figure 6**.)
+
+![image](https://github.com/aglantzrbc/spark-challenge/assets/127694342/02d2013b-bde3-4546-9ba0-330398e6f85f)
+
+**Figure 6** | *With parquet data, and comparison*
 
 ## 2. Results:
 
