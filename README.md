@@ -59,11 +59,8 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 ## 3. Installation:
 
-- The [GitHub](https://github.com/aglantzrbc/deep-learning-challeng) repository (version 2.9.1) containing all project files is publicly accessible.
-- **Constituent program files and their locations:**
-  -  _Jupyter_Notebook_Files_ - Subfolder contains the _Original_ attempt file and three subsequent _Optimization_ files, in sequence, all with an .ipynb extension.
-  -  _H5_Files_ - Subfolder containing the same files, each with an .h5 extension.
-- Since h5 files have already been created, the last cell of each .ipnyb file should not be rerun.
+- The [GitHub](https://github.com/aglantzrbc/spark-challenge) repository (version 2.9.1) containing all project files is publicly accessible.
+- Code file: Home_Sales_colab.ipynb -- **NOTE: The code must be run using** [Google Colab](https://colab.google/). **This is very important.**
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) [(edX)](https://www.edx.org/) Bootcamp Spot [Module 22 Challenge](https://bootcampspot.instructure.com/courses/3337/assignments/54019?module_item_id=962092) webpage.
 - This project was created on a [PC](https://en.wikipedia.org/wiki/Personal_computer) using [Google Chrome](https://www.google.com/chrome/) for [Windows](https://www.microsoft.com/en-us/windows) version 115.0.5790.102 and its associated [Google DevTools](https://developer.chrome.com/docs/devtools/) extension. **If the program doesn't function, it is recommended that the user attempt running it on this platform and browser.**
 - Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.
@@ -74,7 +71,7 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 ## 5. Acknowledgements:
 
-In addition to using the resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) versions 3.5 and 4 apps, and the [VSCode GitHub Copilot](https://github.com/features/copilot) app V1.
+In addition to using the resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) app versions 3.5 and 4, and the [VSCode GitHub Copilot](https://github.com/features/copilot) app V1.
 
 The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and recoverable through [Google](https://www.google.com/) and comparable search engines:
 
