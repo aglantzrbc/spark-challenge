@@ -2,19 +2,22 @@
 
 Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 22
 
-Application Screening Tool for Alphabet Soup
+**NOTE - The code must be run using** [Google Colab](https://colab.google/). **This is very important**
 
 ## TABLE OF CONTENTS
 
 1. Overview
-2. Results
-3. Summary
-4. Installation
-5. Contributing
-6. Acknowledgements
-7. Licenses
+2. Summary
+3. Installation
+4. Contributing
+5. Acknowledgements
+6. Licenses
 
 ## 1. Overview:
+
+In this challenge, SparkSQL was used to determine key metrics about home sales data. Spark was employed to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached.
+
+## 2. Results:
 
 * The **purpose** of the [analysis](https://bootcampspot.instructure.com/courses/3337/assignments/54017?module_item_id=962033) is to create a tool for the nonprofit foundation Alphabet Soup that can help it select the applicants for funding with the best chance of success in their ventures.
 * The **data** source is an [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) file compiled by Alphabet Soup’s business team containing information on more than 34,000 organizations that have received funding from Alphabet Soup over the years.
