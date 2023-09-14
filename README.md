@@ -21,13 +21,15 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 **The following tasks were performed:**
 
-What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places. (See **Figure 1**.)
+* What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places. (See **Figure 1**.)
 
-What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places. (See **Figure 2**.)
+* What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places. (See **Figure 2**.)
 
-What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places. (See **Figure 3**.)
+* What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places. (See **Figure 3**.)
 
-What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places. (See **Figure 4**.)
+* What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places. (See **Figure 4**.)
+
+  What is the "view" rating for the same parameters using cached data and what is the different runtime from the original? (See **Figure 5**.)
 
 ## 2. Results:
 
