@@ -57,7 +57,7 @@ In this challenge, SparkSQL was used to determine key metrics about home sales d
 
 **Figure 6** | *With parquet data, and comparison*
 
-_Npte that after the initial cache, cached data becomes faster to retrieve data retrieval happens from memory rather than being recomputed or fetched from disk._
+_Note that after the initial cache, cached data becomes faster to retrieve data retrieval happens from memory rather than being recomputed or fetched from disk._
 
 ## 3. Installation:
 
