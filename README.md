@@ -15,7 +15,13 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 22
 
 ## 1. Overview:
 
-In this challenge, SparkSQL was used to determine key metrics about home sales data. Spark was employed to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached.
+In this challenge, [Apache Spark](https://en.wikipedia.org/wiki/Apache_Spark) was used to determine key metrics about home sales data. Spark was employed to create a [temporary view](https://spark.apache.org/docs/3.0.0-preview/sql-ref-syntax-ddl-create-view.html), partition the data, [cache](https://en.wikipedia.org/wiki/Cache_(computing)) and uncache a temporary table, and verify that the table had been uncached.
+
+The temporary view was used several times to query and tabulate data using [SparkSQL](https://spark.apache.org/sql/). But anpther crucial parts of the assignment  was comparing [runtime](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)) length between cached data and [Parquet](https://en.wikipedia.org/wiki/Apache_Parquet) data. This is probably because, when dealing with [huge datasets](https://en.wikipedia.org/wiki/Big_data), storing and retrieving data the optimal way is important.
+
+Caching is storing a dataframe, which happens in [memory](https://en.wikipedia.org/wiki/Computer_data_storage). Parquet is about saving a "parqued" file, which happens on [disk](https://en.wikipedia.org/wiki/Disk_storage). In columnar storage like Parquet, data is stored by columns, not rows (e.g., .csv), allowing the system to efficiently read the values of a specific column without the need to scan through unrelated data. This is particularly useful when the user has a specific query. (This begs the question: why, if columnar data is so efficient, isn't always in use? The answer is that it's more difficult to "eyeball" than a typical relational, row-based table, and using columns for all but the most giant files won't save resources anyway.)
+
+It should be noted that when data is read for the first time (and it isn't cached yet), reading from a Parquet file can be faster than reading from less efficient file formats due to the benefits of columnar storage (e.g., greater ability to compress the data). However, once data is cached in memory, subsequent reads will generally be faster than reading from any disk-based storage, including Parquet.
 
 ## 2. Results:
 
