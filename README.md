@@ -68,7 +68,7 @@ _Note that after the initial cache, cached data becomes faster to retrieve becau
 ## 3. Installation:
 
 - The [GitHub](https://github.com/aglantzrbc/spark-challenge) repository (version 2.9.1) containing all project files is publicly accessible.
-- Code file: Home_Sales_colab.ipynb -- **NOTE: The code must be run using** [Google Colab](https://colab.google/). **This is very important.**
+- Code file: **Home_Sales_colab.ipynb** -- **NOTE: The code must be run using** [Google Colab](https://colab.google/). **This is very important.**
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) [(edX)](https://www.edx.org/) Bootcamp Spot [Module 22 Challenge](https://bootcampspot.instructure.com/courses/3337/assignments/54019?module_item_id=962092) webpage.
 - This project was created on a [PC](https://en.wikipedia.org/wiki/Personal_computer) using [Google Chrome](https://www.google.com/chrome/) for [Windows](https://www.microsoft.com/en-us/windows) version 115.0.5790.102 and its associated [Google DevTools](https://developer.chrome.com/docs/devtools/) extension. **If the program doesn't function, it is recommended that the user attempt running it on this platform and browser.**
 - Coding was guided by the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ("don't repeat yourself") principle.
